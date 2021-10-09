@@ -14,8 +14,8 @@
         <junit5.version>5.7.0</junit5.version>
         <mockito.version>3.6.0</mockito.version>
         <mockito-junit-jupiter.version>3.1.0</mockito-junit-jupiter.version>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
     </properties>
     <dependencies>
         <!--        Start Junit5-->
