@@ -71,8 +71,9 @@ public class DeadCode {
     }
 
     public class DeadCodeCollapse extends DeadCode {
-        
+
     }
+
     public static class NewsEntity {
         private String title;
         private String description;
