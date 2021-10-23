@@ -1,0 +1,7 @@
+Description:
+- https://sourcemaking.com/refactoring/smells/data-class
+Discuss:
+- https://softwareengineering.stackexchange.com/questions/338195/why-are-data-classes-considered-a-code-smell
+Demonstrate:
+- https://martinfowler.com/bliki/TellDontAsk.html
+- https://waog.wordpress.com/2014/08/23/code-smell-data-class/
