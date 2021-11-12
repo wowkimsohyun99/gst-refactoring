@@ -35,6 +35,8 @@ public class Company {
     private static class Address {
         private String houseNumber;
         private String city;
+
+
     }
 
     public static void main(String[] args) {
@@ -48,6 +50,9 @@ public class Company {
         department.setName("Hanh chinh");
         department.setManager(manager);
         // --> message chains smell
-        System.out.println("Address of manager is: " + department.getManager().getAddress().getHouseNumber() + " " + department.getManager().getAddress().getCity());
+        String fullManagerAddress = department.getManager().getAddress().getHouseNumber()
+                + " " + department.getManager().getAddress().getCity();
+        System.out.println("Address of manager is: " + fullManagerAddress);
+
     }
 }

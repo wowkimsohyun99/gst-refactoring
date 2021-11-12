@@ -20,6 +20,17 @@ public class CompanyRefactored {
         private String name;
         private Manager manager;
 
+        //hide delegate
+        public String getManagerHouseNumber() {
+            return getManager().getAddress().getHouseNumber();
+        }
+
+        //hide delegate
+        public String getManagerCity() {
+            return getManager().getAddress().getCity();
+        }
+
+        //Extract method and move to beginning of the chain
         public String getAddressOfManager() {
             return getManager().getAddress().getHouseNumber() + " " + getManager().getAddress().getCity();
         }
@@ -52,6 +63,9 @@ public class CompanyRefactored {
         department.setName("Hanh chinh");
         department.setManager(manager);
         // --> message chains smell
+        System.out.println("Address of manager is: " + department.getManagerHouseNumber()
+                + " " + department.getManagerCity());
+        //Extract method and move to beginning of the chain
         System.out.println("Address of manager is: " + department.getAddressOfManager());
     }
 }
