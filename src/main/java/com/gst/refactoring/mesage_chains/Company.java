@@ -51,4 +51,3 @@ public class Company {
         System.out.println("Address of manager is: " + department.getManager().getAddress().getHouseNumber() + " " + department.getManager().getAddress().getCity());
     }
 }
-
