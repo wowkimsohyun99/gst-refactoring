@@ -91,7 +91,7 @@ class CarFactory {
     }
 }
 
-public class RefectorParallelinheritancehierarchies {
+class RefectorParallelinheritancehierarchies {
 
     public static void main(String[] args) throws InstantiationException, IllegalAccessException {
         RefectorCar toyota = CarFactory.getCar(ToyotaShowroom.class);
